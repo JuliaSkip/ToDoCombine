@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A304167D2F51EC3400EE3868 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304167C2F51EC3400EE3868 /* Task+CoreDataProperties.swift */; };
+		A304167E2F51EC3400EE3868 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304167B2F51EC3400EE3868 /* Task+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		A304167B2F51EC3400EE3868 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A304167C2F51EC3400EE3868 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A34922FB2F4888A9004338F9 /* Skip05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skip05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +39,8 @@
 		A34922F22F4888A9004338F9 = {
 			isa = PBXGroup;
 			children = (
+				A304167B2F51EC3400EE3868 /* Task+CoreDataClass.swift */,
+				A304167C2F51EC3400EE3868 /* Task+CoreDataProperties.swift */,
 				A34922FD2F4888A9004338F9 /* Skip05 */,
 				A34922FC2F4888A9004338F9 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A304167D2F51EC3400EE3868 /* Task+CoreDataProperties.swift in Sources */,
+				A304167E2F51EC3400EE3868 /* Task+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
